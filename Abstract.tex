@@ -1,0 +1,14 @@
+\begin{abstract}
+Semantic segmentation is a fundamental task in indoor scene understanding. 
+Most previous supervised approaches rely on densely annotated image datasets. 
+Due to the limited amount of images with segmentation labels, the performance and robustness of existing networks is greatly limited.
+In this work, we exploit spatical and temporal correlation in video frames to improve the performance of segmentation networks. 
+Two effective semi-supervised learning strategies are proposed to propagate the information from a few labeled frames to adjacent video frames. 
+First, we augment training data for supervised semantic segmentation networks by generating pseudo ground-truth for neighboring frames from a labeled frame using filtered homography transformation.
+Second, we introduce a self-supervised loss function to ensure temporal consistency between the segmentation results of adjacent frames. 
+The experimental results show that our proposed method outperforms state-of-the-art techniques for semantic segmentation on NYU-Depth V2 dataset.
+
+\end{abstract}
+\begin{IEEEkeywords}
+	Indoor scene, semantic segmentation, temporal consistency, label propagetion 
+\end{IEEEkeywords}
